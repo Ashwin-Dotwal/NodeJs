@@ -1,5 +1,10 @@
+
+const obj =require("./greet.json");
+
+
+
 function greet(){
-  console.log("Namaste");
+  console.log(obj.hindi);
 }
 
-module.exports =greet;
+module.exports = greet;
